@@ -14,17 +14,17 @@ cat2 = Pets(name="Barsik", age=3, color="orange")
 cat3 = Pets(name="Grey", age=6, color="grey")
 
 
-class Pets2:
-    group = "cats"
-    gender = "female"
-    breed = "British Shorthair"
+class Owners:
+    group = "students"
+    gender = "male"
+    age = 13-16
 
-    def __init__(self, name1, age1, color1):
+    def __init__(self, name1, age1, gender):
         self.name = name1
         self.age = age1
-        self.color = color1
+        self.gender = gender
 
 
-catt1 = Pets2(name1="Chloe", age1=1, color1="white with grey")
-catt2 = Pets2(name1="Peach", age1=2, color1="orange with black and brown")
-catt3 = Pets2(name1="Coal", age1=7, color1="black")
+owner1 = Owners(name1="Bill", age1=13, gender="male")
+owner2 = Owners(name1="Jack", age1=16, gender="male")
+owner3 = Owners(name1="Peter", age1=14, gender="male")
